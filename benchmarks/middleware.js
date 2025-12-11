@@ -1,6 +1,8 @@
 
 var express = require('..');
+var helmet = require('helmet');
 var app = express();
+app.use(helmet());
 
 // number of middleware
 
